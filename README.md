@@ -108,7 +108,7 @@ At present, follow the below mentioned steps to build an image either using Dock
         docker build -t fluentd_oci_la -f Dockerfile .
         ```	
 - Send docker image to OCI Registry:
-    - [How to use OCIR]([https://blogs.oracle.com/lad-cloud-experts-pt/post/como-utilizar-um-docker-registry-gratuito-no-oci]).
+    - ![How to use OCIR]([https://blogs.oracle.com/lad-cloud-experts-pt/post/como-utilizar-um-docker-registry-gratuito-no-oci]).
     
 ### Deploying Kuberenetes resources using Kubectl
 
