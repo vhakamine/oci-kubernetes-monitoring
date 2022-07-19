@@ -100,10 +100,13 @@ At present, follow the below mentioned steps to build an image either using Dock
 - Download all the files from one of the below mentioned dirs into a local machine having access to internet.
     - [OL8](logan/docker-images/v1.0/oraclelinux/8/)
 	- [Debian](logan/docker-images/v1.0/debian/) 
-- Run the following command to build the docker image.
+
+
+    - Run the following command to build the docker image.
+        - Run the following command to build the docker image:
         ```
         docker build -t fluentd_oci_la -f Dockerfile .
-        ```
+        ```	
 - The docker image built from the above step, can either be pushed to Docker Hub or OCI Container Registry (OCIR) or to a Local Docker Registry depending on the requirements.
     - [How to push the image to Docker Hub](https://docs.docker.com/docker-hub/repos/#pushing-a-docker-container-image-to-docker-hub)
     - [How to push the image to OCIR](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/registry/index.html).
